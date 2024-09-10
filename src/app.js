@@ -56,7 +56,7 @@ app.post("/auth/register", async (req, res) => {
   if(!name){
     return res.status(422).json({info: 'Informe seu nome'})
 }
-
+//"Quem?" - Julio
  
 if(!register){
   return res.status(422).json({info: 'Informe seu CNPJ ou CPF'})
